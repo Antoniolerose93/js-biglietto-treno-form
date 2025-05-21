@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglietto del treno</title>
+</head>
+<body>
+    <h1>Biglietto del treno</h1>
+    
+    <div>
+        <label for="viaggo"> Chilometri da percorrere </label>
+        <input
+            type="text"
+            id ="chilometri"
+            name ="chilometri"
+            placeholder="Inserisci il numero di chilometri"
+            style="width: 250px; text-align: center;"   
+        />
+    </div>
+
+    <div>
+			<label for="Sconto">Seleziona la tua categoria</label>
+			<select name="Persona" id="persona">
+				<option value="Over65">Over65</option>
+				<option value="Studente">Studente</option>
+				<option value="Altro">Altro</option>
+			</select>
+		</div>
+    
+    <button id="calcola">Calcola il prezzo del biglietto</button>
+    
+    <div>
+        Prezzo del biglietto:
+        <div id ="risultato">--</div>
+    </div>
+
+    <script src="./script.js"></script>
+
+
+</body>
+</html>
