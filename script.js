@@ -27,12 +27,12 @@ buttonCalcola.addEventListener('click', function () {
 //2 Calcolo il prezzo base
 // const distanza = parseFloat('Inserisci il numero di km da percorrere')
 const prezzoKm = 0.21
-const prezzoBase = chilometri * prezzoKm
+const prezzoBase = chilometri.value * prezzoKm
 console.log(prezzoBase)
 
 
 //3. Leggiamo i dati inseriti dall'utente
-const persona = tipoUtente
+const persona = tipoUtente.value
 console.log(persona)
 
 // 4. Poniamo le condizioni per la scontistica
